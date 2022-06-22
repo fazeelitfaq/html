@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="container">
+                <strong>
+                    <a href="index.html">
+                        <img src="img.jpg.jpeg">
+                    </a>
+                </strong>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="index.html">Services</a></li>
+                        <li><a href="index.html">Gallery</a></li>
+                        <li><a href="index.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <section id="banner">
+                <div class="container">
+                    <div class="one">
+                        <div>
+                            <h1>LOREM IPSUM DOLOR</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, voluptatum! Soluta accusantium facere blanditiis quas consequatur laborum, molestiae nisi, ad pariatur, nostrum natus reprehenderit tempore aperiam. Accusantium iure id incidunt.</p>
+                        </div>
+                        <div>
+                            <button class="button1">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="img-upper">
+                        <img src="img.jpg2.jpeg" >
+                    </div>
+                </div>
+            </section>
+            <section id="services">
+                <div class="container">
+                    <div class="divs">
+                        <div class="divparts"> 
+                            <img src="img.jpg3.jpeg">
+                            <h1>GOHN DOE</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate architecto.</p>
+                        </div>
+                        <div class="divparts"> 
+                            <img src="img.jpg3.jpeg">
+                            <h1>GOHN DOE</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate architecto.</p>
+                        </div>
+                        <div class="divparts">
+                            <img src="img.jpg3.jpeg">
+                            <h1>GOHN DOE</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate architecto.</p>
+                        </div>
+                        <div class="divparts">
+                            <img src="img.jpg3.jpeg" >
+                            <h1>GOHN DOE</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate architecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+                <div class="fupper">
+                    <a href="index.html">
+                        <h1>Contact Us</h1>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate architecto. amet consectetur adipisicing elit. Iusto nisi nostrum cupiditate.</p>
+                </div>
+                <div class="formdetail">
+                    <form class="form1">
+                        <div class="userdetail">
+                            <div class="inputbox1">
+                                <label>Name</label>
+                                 <input type="text">
+                            </div>
+                            <div  class="inputbox">
+                                <label>Email</label>
+                                <input type="text">
+                            </div>
+                            <div  class="inputbox">
+                                <label>TeL</label>
+                                 <input type="number">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="msgdiv">
+                    <form class="form2">
+                        <div class="msginner">
+                            <div class="msg">
+                                <label >Message</label>
+                                <textarea type="text"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="b2">
+                    <form class="form3">
+                        <div class="b3">
+                            <div class="submit">
+                                <button> Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+#nav ul{
+    display: flex;
+    list-style: none;
+}
+#nav li{
+    margin: 0 20px 0 20px;
+}
+#nav a{
+    text-decoration: none;
+    color:black;
+    transition: all ease-in-out 0.3s;
+}
+#nav a:hover{
+    color: rgb(34, 146, 238);
+}
+#banner{
+    background-color: #2596be;
+    height: 350px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one p{
+    width: 440px;
+    text-align: left;
+    padding: 5px 0 40px 0;
+}
+.one h1{
+    
+    font-size: 40px;
+    padding: 15px 0 0 0;
+}
+.button1{
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    color:#2596be;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.img-upper img{
+    border: none;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+#services{
+    background-color: #c8c8c8;
+    width:100%;
+    height:440px;
+    color: #22a5cd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divs{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+.divparts{
+    margin: 20px 0 20px 0;
+    background-color: white;
+    height:400px;
+    width:270px;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+}
+.divparts img{
+    height:200px;
+    width:250px;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+    box-shadow:0 0 6px black;
+    cursor: pointer;
+}
+.divparts p{
+    text-align: center;
+    padding: 5px 0 40px 0;
+}
+#footer{
+    color:#22a5cd;
+    width:100%;
+    height:500px;
+}
+.fupper{
+    text-align: center;
+    margin: 0 auto;
+    width: 380px;
+}
+.fupper a{
+    text-decoration: none;
+    color: #22a5cd;
+    transition: all ease-in-out 0.3s;
+}
+.fupper a:hover{
+    color: rgb(31, 24, 24);
+}
+.userdetail{
+    display: flex;
+    margin: 0 auto;
+}
+.form1{
+    display: flex;
+}
+.inputbox input{
+    height: 25px;
+    width: 200px;
+    font-size: x-large;
+    margin: 0 10px 0 0;
+    box-shadow:0 0 2px black;
+}
+.inputbox1 input{
+    height: 25px;
+    width: 200px;
+    font-size: x-large;
+    margin: 0 10px 0 0;
+    border-color: #22a5cd;
+}
+.userdetail label{
+    display: block;
+}
+.form2{
+    display: flex;
+}
+.msg label{
+    display: block;
+}
+.msginner{
+    display: flex;
+    margin: 0 auto;
+}
+.msg textarea{
+    box-shadow:0 0 2px black;
+    width: 635px;
+    height: 100px;
+    font-size: x-large;
+}
+.msg{
+    margin: 3px 0 0 -10px;
+}
+.submit{
+ margin: 20px 0 0 510px;
+}
+.form3{
+    display: flex;
+}
+.b3{
+    display: flex;
+    margin: 0 auto ;
+}
+.submit button{
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color:#2596be ;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
