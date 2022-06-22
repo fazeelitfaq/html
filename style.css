@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background-color: rgb(209, 197, 197);
+}
+.header{
+    margin: 30px 0 30px 0;
+}
+.top1{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    background-color: green;
+}
+.top2{
+    width:1200px;
+    height:250px;
+    margin:0 auto;
+    background-color: black;
+}
+.main{
+    width:1200px;
+    margin: 0 auto;
+}
+.centerblock{
+    margin:0 auto;
+    width:1200px;
+    height:1200px;
+    position: relative;
+}
+.block1{
+    width:800px;
+    height:1200px;
+    background-color: skyblue;
+    position: relative;
+}
+.slip{
+    height:1200px;
+    width:600px;
+    position:absolute;
+}
+.black1{
+    width:400px;
+    height:400px;
+    background-color: black;
+    margin:30px 0 30px 30px;
+    position:relative;
+}
+.black2{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin:0 0 0 30px;
+    position:relative
+}
+.w1{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.w2{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.w3{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    bottom:150px;
+    right:150px;
+}
+.w4{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.w5{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+ .yellow1{
+    width:370px;
+    height:585px;
+    background-color: yellow;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.yellow2{
+    width:370px;
+    height:585px;
+    background-color: yellow;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.footer{
+    margin: 30px 0 30px 0;
+}
+.bottom1{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    background-color:purple;
+}
+.bottom2{
+    width:1200px;
+    height:250px;
+    margin:0 auto;
+    background-color:darkblue;
+}
